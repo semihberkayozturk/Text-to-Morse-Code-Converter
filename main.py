@@ -61,8 +61,8 @@ final = ''.join(output)
 if len(user_text) < 50:
     print(f"The Morse code of '{user_text}' is {final}")
 else:
-    print("The AI is  converting your text into morse code. Please wait 2 seconds.")
-    sleep(2)
+    print("The AI is  converting your text into morse code. Please wait a second.")
+    sleep(1)
     print(f"The Morse code of '{user_text}' is {final}")
 
 
